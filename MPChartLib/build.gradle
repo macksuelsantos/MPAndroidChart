@@ -42,7 +42,7 @@ uploadArchives {
     repositories.mavenDeployer {
         repository(url: 'file://' + rootProject.projectDir + '/repo/')
         pom {
-            artifactId = 'MPChart-lib'
+            artifactId = 'mpchart-lib'
         }
     }
 }
